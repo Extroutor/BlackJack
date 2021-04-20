@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-@import url("/css/about.css");
-@import url("/css/adaptive.css");
-@import url("/css/contact.css");
-@import url("/css/login.css");
-@import url("/css/reset.css");
-@import url("/css/navbar.css");
-@import url("/css/schedule.css");
+@import url("about.css");
+@import url("adaptive.css");
+@import url("contact.css");
+@import url("login.css");
+@import url("reset.css");
+@import url("navbar.css");
+@import url("schedule.css");
 
 * {
     padding: 0%;
