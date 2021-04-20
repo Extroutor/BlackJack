@@ -1,0 +1,101 @@
+.about-header{
+    padding-top: 100px;
+}
+
+.main-signin {
+    font-family: Montserrat;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(50, 50, 50, 1);
+    box-shadow: 0px 0px 22px 0px rgba(50, 50, 50, 1);
+    width: 37%;
+    margin: 100px auto 190px;
+    border-radius: 21px;
+    background: #1f1f1f;
+    box-shadow: 9px 9px 19px #0d0d0d,
+        -9px -9px 19px #212121;
+    
+}
+
+.main-signin .main-signin__head {
+    background: #8a0128;
+    border-radius: 20px 20px 0 0;
+    padding: 25px 0;
+}
+
+.main-signin .main-signin__head p {
+    color: #d1d1d1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-signin .main-signin__middle {
+    background: #1f1f1f;
+    border-bottom: 1px solid #2d2f3200;
+    border-top: 1px solid #2d2f32;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.main-signin .main-signin__middle .middle__form {
+    margin: 60px 0 30px 0;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="text"],
+.main-signin .main-signin__middle .middle__form input[type="password"],
+.main-signin .main-signin__middle .middle__form input[type="submit"] {
+    background: #d4d4d4;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-box-shadow: 0px 0px 22px 0px #414040;
+    -moz-box-shadow: 0px 0px 22px 0px #414040;
+    box-shadow: 0px 0px 22px 0px #414040;
+    border: none;
+    font-size: 15px;
+    font-family: Montserrat;
+    color: #25262a;
+    display: block;
+
+    margin: 0 auto;
+    outline: none;
+    padding: 15px 0;
+    width: 80%;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="text"],
+.main-signin .main-signin__middle .middle__form input[type="password"] {
+    padding: 20px 20px;
+
+}
+
+.main-signin .main-signin__middle .middle__form input[type="password"] {
+    border-top: 1px solid #acabab;
+    margin-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+
+.main-signin .main-signin__middle .middle__form input[type="submit"] {
+    background: #c70039;
+    border-radius: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 75px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 21px;
+    background: #1f1f1f;
+    box-shadow:  9px 9px 19px #111111,
+                 -9px -9px 19px #2d2d2d;
+}
+
+.main-signin .main-signin__middle .middle__form input[type="submit"]:hover, .main-signin .main-signin__middle .middle__form input[type="submit"]:focus {
+    border-radius: 21px;
+    background: #1f1f1f;
+    box-shadow: inset 9px 9px 19px #111111,
+                inset -9px -9px 19px #2d2d2d;
+
+}

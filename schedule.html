@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willy Wonkas - Personal Portfolio Website Template</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!--mouse  follower-->
+    <div class="cursor"></div>
+
+    <!--loader-->
+    <div id="loader">
+        <span class="color">Arlo</span>Brown
+    </div>
+
+    <!--link-screen-->
+    <div id="breaker">
+    </div>
+    <div id="breaker-two">
+    </div>
+
+    <!--Main-Section-->
+    <!--Navigator-fullscreen-->
+    <div id="navigation-content">
+
+        <div class="navigation-close">
+            <span class="close-first"></span>
+            <span class="close-second"></span>
+        </div>
+        <div class="navigation-links">
+            <a href="/home.html" data-text="HOME" id="home-link">HOME</a>
+            <a href="/about.html" data-text="ABOUT" id="about-link">ABOUT</a>
+            <a href="/login.html" data-text="LOGIN" id="login-link">LOG IN</a>
+            <a href="/schedule.html" data-text="SCHEDULE" id="schedule-link">SCHEDULE</a>
+            <a href="/contact.html" data-text="CONTACT" id="contact-link">CONTACT</a>
+        </div>
+    </div>
+
+    <!--Home Page-->
+    <!--Menubar-->
+    <div id="navigation-bar">
+        <img src="img/svg/willy wonka logo.png" alt="logo">
+        <div class="menubar">
+            <span class="first-span"></span>
+            <span class="second-span"></span>
+            <span class="third-span"></span>
+        </div>
+    </div>
+    <!--schedule-->
+    <!-- Class Time Section Begin -->
+    <section class="classtime-section class-time-table spad">
+        <div class="container-sch">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="schedule-header">
+                        Schedule <span class="color">timetable</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="timetable-controls">
+                        <ul>
+                            <li class="active" data-tsfilter="all">all class</li>
+                            <li data-tsfilter="crossfit">crossfit</li>
+                            <li data-tsfilter="lunge">lunge ball</li>
+                            <li data-tsfilter="ppsr">ppsr</li>
+                            <li data-tsfilter="walls">walls</li>
+                            <li data-tsfilter="candy">candy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="classtime-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                                <th>Saturday</th>
+                                <th>Sunday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="workout-time">10.00</td>
+                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
+                                    <span>10.00 - 14.00</span>
+                                    <h6>Crossfit lv1</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
+                                    <span>10.00 - 15.00</span>
+                                    <h6>Crossfit lv1</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="lunge">
+                                    <span>10.00 - 13.00</span>
+                                    <h6>Lunge Ball Bur</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="lunge">
+                                    <span>10.00 - 13.30</span>
+                                    <h6>Lunge Ball Bur</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="workout-time">14.00</td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="lunge">
+                                    <span>14.00 - 17.00</span>
+                                    <h6>Lunge Ball Bur</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
+                                    <span>14.00 - 17.00</span>
+                                    <h6>Crossfit lv1</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="walls">
+                                    <span>14.00 - 15.30</span>
+                                    <h6>Walls to Knees</h6>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="workout-time">16.00</td>
+                                <td class="hover-bg ts-item" data-tsmeta="lunge">
+                                    <span>16.00 - 18.00</span>
+                                    <h6>Lunge Ball Bur</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="candy">
+                                    <span>16.00 - 19.00</span>
+                                    <h6>Candy</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="candy">
+                                    <span>16.00 - 19.00</span>
+                                    <h6>Candy</h6>
+                                </td>
+                                <td class="hover-bg ts-item" data-tsmeta="ppsr">
+                                    <span>16.00 - 17.00</span>
+                                    <h6>Ppsr</h6>
+                                </td>
+                                <td class="hover-bg ts-item" data-tsmeta="murph">
+                                    <span>16.00 - 20.00</span>
+                                    <h6>murph</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="workout-time">18.00</td>
+                                <td class="hover-bg ts-item" data-tsmeta="walls">
+                                    <span>18.00 - 20.00</span>
+                                    <h6>Walls to Knees</h6>
+                                </td>
+                                <td class="hover-bg ts-item" data-tsmeta="ppsr">
+                                    <span>18.00 - 20.00</span>
+                                    <h6>ppsr</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="chelsea">
+                                    <span>18.00 - 22.00</span>
+                                    <h6>Chelsea</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="annie">
+                                    <span>18.00 - 22.00</span>
+                                    <h6>annie</h6>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="workout-time">20.00</td>
+                                <td class="hover-bg ts-item" data-tsmeta="lunge">
+                                    <span>21.00 - 23.00</span>
+                                    <h6>Lunge Ball Bur</h6>
+                                </td>
+                                <td class="hover-bg ts-item" data-tsmeta="walls">
+                                    <span>20.00 - 22.00</span>
+                                    <h6>Walls to Knees</h6>
+                                </td>
+                                <td class="hover-bg ts-item" data-tsmeta="walls">
+                                    <span>20.30 - 23.00</span>
+                                    <h6>Walls to Knees</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
+                                    <span>22.00 - 23.00</span>
+                                    <h6>Crossfit Lv2</h6>
+                                </td>
+                                <td></td>
+                                <td class="hover-bg ts-item" data-tsmeta="crossfit">
+                                    <span>21.00 - 23.00</span>
+                                    <h6>Crossfit Lv2</h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Class Time Section End -->
+
+
+    <div class="footer">
+        <div class="footer-text">
+            <img src="./img/copyright.png" alt="copyright-img" class="images" height="14px"> Willy Wonkas
+        </div>
+    </div>
+</body>
+
+</html>
